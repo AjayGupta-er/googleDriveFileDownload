@@ -29,8 +29,10 @@ Also, you can import gDriveDownloader and create object of class DownloadGD.
 Usage:
 
 from gDriveDownloader import DownloadGD
-    download = DownloadGD('URL')
-    download.useGdown('fileName') OR download.useRequests('fileName')
+
+   download = DownloadGD('URL')
+    
+   download.useGdown('fileName') OR download.useRequests('fileName')
   
   
   Please note:
@@ -42,11 +44,14 @@ from gDriveDownloader import DownloadGD
   To validate the gDriveDownloader, there is another unittest based tests: "testDownload.py"
   
   Usage:
+  
   python3.5 testDownload.py
   
   This file has total 5 tests which validates the downloader.
   
  Also, there are few scenarios which could be validated manually for more rigorous tests:
+ 
  1. Test the downloader with different types of files, such as (tar files, image files, etc)
+ 
  2. Test the downloader with larger file size, such as (1GB, 10GB, etc)
  
