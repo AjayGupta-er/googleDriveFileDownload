@@ -6,27 +6,35 @@ Prerequisite :
 1. python version 3.5 or more.
 2. Python libraries:
   i) gdown : - https://pypi.org/project/gdown/
+  
  ii) requests: - https://pypi.org/project/requests/
+ 
 iii) unittest: - https://pypi.org/project/unittest/
 
+
 Usage:
-1. Use below command to clone this repo.
-    git clone https://github.com/AjayGupta-er/googleDriveFileDownload.git
+1. Use below command to clone this repo: -     git clone https://github.com/AjayGupta-er/googleDriveFileDownload.git
+    
 2. Use below command line to invoke the script:
+
     python3.5 gDriveDownloader.py 'URL' 'fileName'
+    
   
-Here, 'URL' is the public link of google drive file.
-    Ex: 'https://drive.google.com/uc?id=19S-lycZy0Yz8WHbk8CwAjkaIBUKwmXHU'
-    'fileName' is the file name you want to save the file as.
+Here, 'URL' is the public link of google drive file.    Ex: "https://drive.google.com/uc?id=19S-lycZy0Yz8WHbk8CwAjkaIBUKwmXHU"
+    
+   'fileName' is the file name you want to save the file as.
           
 Also, you can import gDriveDownloader and create object of class DownloadGD.
+
 Usage:
+
 from gDriveDownloader import DownloadGD
     download = DownloadGD('URL')
     download.useGdown('fileName') OR download.useRequests('fileName')
   
   
   Please note:
+  
   Class method 'useGdown' can be used to download larger size of files.
   
   Validation:
