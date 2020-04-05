@@ -35,9 +35,7 @@ from gDriveDownloader import DownloadGD
    download.useGdown('fileName') OR download.useRequests('fileName')
   
   
-  Please note:
-  
-  Class method 'useGdown' can be used to download larger size of files.
+  Please note:-   Class method 'useGdown' can be used to download larger size of files.
   
   Validation:
   
